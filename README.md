@@ -19,14 +19,14 @@ There are no missing values in the data.
 
 ## Voting Classifier Results
 
-| Classifier | Parameters | Accuracy |  |  |
-|---|---|---|---|---|
-| Logistic Regression | solver='newton-cg',max_iter (Maximum Iterations) = 300, C (Regularization) = 100 | 0.965889 |  |  |
-| K Nearest Neighbors Classifier | N(Neighbors) = 30 | 0.961910 |  |  |
-| Linear SVC | C (Regularization) = 10, max_iter (Maximum Iterations) = 20000 | 0.9661739 |  |  |
-| Decision Tree Classifier | max_depth (Maximum Depth) = 3 | 0.963899 |  |  |
-| Voting Classifier (Hard Voting) | estimators=['Logistic Classifier', 'KNN Classifier', 'Decision Tree Classifier', 'Linear SVC Classifier'] | 0.9653212 |  |  |
-| Voting Classifier (Soft Voting) | estimators=['Logistic Classifier', 'KNN Classifier', 'Decision Tree Classifier'] | 0.965605 |  |  |
+| Classifier | Parameters | Accuracy |
+|---|---|---|
+| Logistic Regression | solver='newton-cg',max_iter (Maximum Iterations) = 300, C (Regularization) = 100 | 0.965889 |
+| K Nearest Neighbors Classifier | N(Neighbors) = 30 | 0.961910 |
+| Linear SVC | C (Regularization) = 10, max_iter (Maximum Iterations) = 20000 | 0.9661739 |
+| Decision Tree Classifier | max_depth (Maximum Depth) = 3 | 0.963899 |
+| Voting Classifier (Hard Voting) | estimators=['Logistic Classifier', 'KNN Classifier', 'Decision Tree Classifier', 'Linear SVC Classifier'] | 0.9653212 |
+| Voting Classifier (Soft Voting) | estimators=['Logistic Classifier', 'KNN Classifier', 'Decision Tree Classifier'] | 0.965605 |
 
 ## Analysis of results
 
